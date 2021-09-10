@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 14px/1 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p, h1-h6 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 0;
+
+}
+
+/* default classes start */
+.d-flex {
+    display: flex;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.justify-content-space-between {
+    justify-content: space-between;
+}
+/* default classes end */
+
+.container {
+    max-width: 1114px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.btn {
+    font: 700 18px/1.33 'PT Sans', sans-serif;
+    padding: 16px 30px;
+}
+
+.btn-default {
+    color: #0F064C;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px #0F064C;
+}
+
+.header {
+    padding: 40px 0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.main-header-nav {
+    font-weight: 700;
+    margin-left: 66px;
+    color: #fff
+}
+
+.main-header-nav a + a,
+.info-header-nav a + a {
+    margin-left: 30px;
+}
+
+.info-header-nav {
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.inner {
+    height: 100vh;
+    background: linear-gradient(89.85deg, #23196F 0.13%, #180D5B 99.88%);
+    padding-top: 106px;
+    min-height: 910px;
+}
+
+.inner-call-action {
+    max-width: 545px;
+    position: relative;
+}
+
+.inner-call-action::after {
+    content: '';
+    width: 738px;
+    height: 611px;
+    background: url(../img/inner-bg.png) no-repeat;
+    position: absolute;
+    top: -100px;
+    right: -645px;
+    z-index: 0;
+}
+
+.inner-titile {
+    font-weight: 900;
+    font-size: 48px;
+    color: #fff;
+    line-height: 1.29;
+    margin-top: 55px;
+    z-index: 1;
+    position: relative;
+}
+
+.inner-text {
+    font-size: 18px;
+    line-height: 1.33;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 385px;
+    margin: 20px 0 55px 0;
+
+}
+
+.inner-text >span {
+    color: #36a7b9;
+    font-weight: 700;
+}
+
+.inner-test-email {
+    display: inline-block;
+}
+
+.inner-emain-required {
+    margin-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.inner-emain-required span {
+    margin-left: 15px;
+}
+
+.inner-services-title {
+    color: #fff;
+    font: 700 24px/1.29 'PT Sans', sans-serif;
+    max-width: 365px;
+    margin-bottom: 30px;
+}
+
+.inner-services-wrap {
+    margin-top: 95px;
+}
+
+.inner-services-list-item {
+    width: 164px;
+    height: 164px;
+    background-color: rgba(15, 6, 76, 0.45);
+    cursor: pointer;
+}
+
+.inner-services-list-item:hover {
+    background-color: #fff;
+}
+
+.inner-services-list-item + .inner-services-list-item {
+    margin-left: 10px;
+}
